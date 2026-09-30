@@ -24,7 +24,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..800&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
 
-  <link rel="stylesheet" href="styles.css?v=20260930d" />
+  <link rel="stylesheet" href="styles.css?v=20260930e" />
 
   <script type="application/ld+json">
   {
@@ -504,13 +504,27 @@
             </div>
           </article>
 
-          <article class="mini spot reveal">
+          <article class="mini mini--rich spot reveal">
+            <div class="mini__media">
+              <div class="duo duo--mini duo--webs">
+                <figure class="browser">
+                  <div class="browser__bar" aria-hidden="true"><i></i><i></i><i></i><span>agropredict · panel de control</span></div>
+                  <img src="assets/img/agropredict-panel.webp" width="1200" height="750" loading="lazy" decoding="async" alt="AgroPredict IA: panel de control con parcelas, alertas y estado del motor de IA" data-lightbox />
+                </figure>
+                <figure class="browser duo__second">
+                  <div class="browser__bar" aria-hidden="true"><i></i><i></i><i></i><span>rendimiento</span></div>
+                  <img src="assets/img/agropredict-rendimiento.webp" width="1200" height="750" loading="lazy" decoding="async" alt="AgroPredict IA: análisis de rendimiento por cultivo con gráficas" data-lightbox />
+                </figure>
+              </div>
+            </div>
             <div class="mini__top">
-              <span class="badge">Proyecto académico · equipo de 5</span>
+              <span class="badge"><svg class="ic" aria-hidden="true"><use href="#u-users"/></svg>Proyecto académico · 5 personas</span>
               <span class="mini__date">may 2026</span>
             </div>
             <h3 class="mini__title">AgroPredict IA</h3>
             <p class="mini__desc">Plataforma de predicción agronómica: entrena modelos con tus CSV y predice rendimiento, riesgo de plagas y clima por parcela, con login, panel e historial.</p>
+            <!-- EDITAR: tu aporte -->
+            <p class="mini__role"><b>Mi aporte:</b> desarrollo de principio a fin junto al equipo: backend en Flask, modelos de IA, interfaz y documentación.</p>
             <ul class="stack-tags stack-tags--sm" aria-label="Stack de AgroPredict IA">
               <li><svg aria-hidden="true"><use href="#i-flask"/></svg>Flask</li>
               <li><svg aria-hidden="true"><use href="#i-tensorflow"/></svg>TensorFlow</li>
@@ -802,6 +816,6 @@
     <p id="lbCap"></p>
   </dialog>
 
-  <script defer src="main.js?v=20260930d"></script>
+  <script defer src="main.js?v=20260930e"></script>
 </body>
 </html>
