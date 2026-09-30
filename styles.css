@@ -440,6 +440,10 @@ figcaption { margin-top: 10px; font-size: 13px; color: var(--dim); font-family: 
 .mini__title { font-size: 26px; letter-spacing: -.03em; font-weight: 600; }
 .mini__desc { color: var(--muted); font-size: 15.5px; }
 .mini .stack-tags { margin-top: 2px; }
+.mini__media { margin: -8px -8px 10px; padding: 22px 22px 0; border-radius: 20px; background: radial-gradient(80% 90% at 50% 0%, rgba(106,77,255,.18), transparent 70%), rgba(255,255,255,.02); border: 1px solid var(--line); overflow: hidden; }
+.duo--mini { padding: 0 14% 0 0; }
+.duo--mini .browser { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+.duo--mini .duo__phone { width: 27%; bottom: -28%; right: 2%; }
 .mini__role { font-size: 14.5px; color: var(--muted); padding: 10px 14px; border-radius: 12px; border: 1px dashed var(--line-2); background: rgba(255,255,255,.02); }
 .mini__role b { color: var(--accent-2); font-weight: 600; }
 .mini__links { margin-top: auto; display: flex; flex-wrap: wrap; gap: 6px 22px; }
